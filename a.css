@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: green;
+}
+p {
+    color: white;
+}   
+h2 {
+    color: green;
+}
+header {
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 30px;
+}
