@@ -51,3 +51,7 @@ ul p {
 ul h3 {
     background-color: #fd020298;
 }
+#nav-list {
+    background-color: #00f7ff;
+    border-radius: 10px;
+}
