@@ -56,8 +56,21 @@ ul h3 {
     background-color: #00f7ff;
     border-radius: 10px;
 }
-button {
-    background-color: #f6ff00;
-    padding: 1em;
-    border-radius: 10em;
+section h3 {
+    color: #02fd02;
+}
+section img {
+    width: 50em;
+}
+#ejemplo-github {
+    background-color: #3a3a3a;
+    padding: 10px;
+}
+.expediente {
+    background-color: #a6ae03;
+    padding: 10px;
+}
+.expediente h1{
+    font-size: 3em;
+    font-family: 'Isometra';
 }
