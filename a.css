@@ -19,6 +19,7 @@ h2 {
 header {
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 header p {
     font-size: 1.2rem;
@@ -118,4 +119,22 @@ section img {
 }
 .breanch p {
     line-height: 1.6;
+}
+.sello-classificado {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    padding: 0.5em 1em;
+    border: 0;
+    border-radius: 5px;
+}
+#sello {
+    position: absolute;
+    top: 1em;
+    left: 0.5em;
+    width: 4em;
+    border-radius: 50%;
 }
