@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../a.css">
     <title>Expediente</title>
 </head>
+
 <body>
     <section class="expediente">
         <h1>Manolito tuvo un expediente el dia 12/03/2026</h1>
@@ -32,5 +34,54 @@
             <p>Crear ramas para desarrollar nuevas características de forma aislada.</p>
         </div>
     </section>
+    <section id="registro">
+        <h2>Registro de excusas</h2>
+        <p>Ingrese su excusa en el cuadro de texto y presione el boton "Analizar excusa".</p>
+        <form action="">
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" type="text" required minlength="2" maxlength="50">
+            </div>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label for="fecha">Fecha del incidente:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="campo">
+                <label for="drama">Nivel de dramatismo:</label>
+                <select id="drama" name="drama" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="bajo">Bajo</option>
+                    <option value="medio">Medio</option>
+                    <option value="alto">Alto</option>
+                </select>
+                <fieldset class="campo">
+                    <legend>Categoria principal:</legend>
+                    <label for="salud">
+                        <input type="radio" name="categoria" value="salud" required> Salud
+                    </label>
+                    <label for="academico">
+                        <input type="radio" name="categoria" value="academico"> Academico
+                    </label>
+                </fieldset>
+                <div class="campo campo-check">
+                    <label for="">
+                        <input type="checkbox" name="confirmacion" required> Confirmo que la información proporcionada
+                        es verídica.
+                    </label>
+                </div>
+                <div class="campo">
+                    <label for="excusa">Declaracion completa:</label>
+                    <textarea id="excusa" rows="6" minlength="10" maxlength="200" required></textarea>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+            <input type="button" value="Enviar">
+        </form>
+    </section>
 </body>
+
 </html>

@@ -138,3 +138,7 @@ section img {
     width: 4em;
     border-radius: 50%;
 }
+.campo {
+    color: white;
+    font-family: 'Isometra';
+}
